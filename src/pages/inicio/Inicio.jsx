@@ -13,7 +13,7 @@ export default function Inicio() {
       <section className={s.sectionBeneficios}>
         <h2>Por que devo doar?</h2>
         <div className={s.container}>
-          <div className={s.div}>
+          <div className={s.card}>
             <img
               src={livrosAcessiveis}
               alt="Pessoas em círculo, representando a comunidade e a inclusão social"
@@ -23,14 +23,14 @@ export default function Inicio() {
               exclusão social.
             </p>
           </div>
-          <div className={s.div}>
+          <div className={s.card}>
             <img
               src={incentivarLeitura}
               alt="Um livro aberto, simbolizando o conhecimento, a aprendizagem e o hábito da leitura"
             />
             <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
           </div>
-          <div className={s.div}>
+          <div className={s.card}>
             <img
               src={transformacaoPessoal}
               alt="Um punho erguido, com pessoas abaixo, representando a comunidade que se beneficia da leitura"
@@ -40,7 +40,7 @@ export default function Inicio() {
               transformem suas vidas.
             </p>
           </div>
-          <div className={s.div}>
+          <div className={s.card}>
             <img
               src={direitosIguais}
               alt="Uma balança, simbolizando a igualdade e o acesso equitativo ao conhecimento"
