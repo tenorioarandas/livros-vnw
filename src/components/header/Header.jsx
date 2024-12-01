@@ -27,7 +27,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link className={s.link} to="querodoar">
+              <Link className={s.link} to="/querodoar">
                 Quero Doar
               </Link>
             </li>

@@ -9,8 +9,10 @@ export default function QueroDoar() {
         do Livro
       </h2>
       <form className={s.form}>
-        <img src={iconeLivro} alt="Ícone de um livro azul aberto" />
-        <h2>Informações do Livro</h2>
+        <div className={s.tituloForm}>
+          <img src={iconeLivro} alt="Ícone de um livro azul aberto" />
+          <h2>Informações do Livro</h2>
+        </div>
 
         <input type="text" id="" name="" placeholder="Título" />
 
@@ -18,7 +20,7 @@ export default function QueroDoar() {
 
         <input type="text" id="" name="" placeholder="Autor(a)" />
 
-        <input type="text" id="" name="" placeholder="Imagem" />
+        <input type="text" id="" name="" placeholder="Link da imagem" />
 
         <button type="submit">Doar</button>
       </form>
