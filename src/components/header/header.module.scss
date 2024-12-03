@@ -6,20 +6,20 @@
   height: 20vh;
 }
 
-.logoContainer {
+.boxLogo {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  gap: 5%;
   width: 20%;
-  margin-left: 1%;
+  margin-left: 2%;
 
   img {
-    width: 20%;
+    width: 4vw;
   }
 
   h1 {
     color: #ffff;
-    font-size: 1.875rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -40,7 +40,7 @@
 .barraDeBusca {
   border: solid #ffff;
   border-radius: 20px;
-  margin-right: 1%;
+  margin-right: 2%;
   width: 20%;
   height: 5vh;
   display: flex;
@@ -61,7 +61,35 @@
 }
 
 .button {
-  border: none;
+  border: solid;
   background-color: transparent;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+  .boxLogo {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .boxLogo {
+      justify-content: center;
+      width: 50%;
+    }
+
+    .navHeader {
+      width: 50%;
+    }
+
+    .barraDeBusca {
+      display: none;
+    }
+  }
 }

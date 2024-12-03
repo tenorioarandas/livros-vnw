@@ -1,19 +1,19 @@
 import livroDoado from "../../assets/livroDoado.png";
-import s from "../livrosDoados/livrosdoados.module.scss";
+import S from "../livrosDoados/livrosdoados.module.scss";
 
 export default function LivrosDoados() {
   return (
-    <section className={s.section}>
+    <section className={S.sectionDoacao}>
       <h2>Livros Doados</h2>
-      <div className={s.container}>
+      <div className={S.boxLivro}>
         <img
           src={livroDoado}
           alt="Um livro chamado: O protagonista, de Susanne Andrade"
         />
         <ul>
-          <li className={s.tituloDoLivro}>O protagonista</li>
-          <li className={s.autorxDoLivro}>Susanne Andrade</li>
-          <li className={s.generoLiterario}>Ficção</li>
+          <li className={S.tituloDoLivro}>O protagonista</li>
+          <li className={S.autorxDoLivro}>Susanne Andrade</li>
+          <li className={S.generoLiterario}>Ficção</li>
         </ul>
       </div>
     </section>

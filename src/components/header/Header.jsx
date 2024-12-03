@@ -4,43 +4,43 @@ import LivrosDoados from "../../pages/livrosDoados/LivrosDoados";
 import QueroDoar from "../../pages/queroDoar/QueroDoar";
 import logoLivro from "../../assets/logoLivro.png";
 import lupa from "../../assets/lupa.png";
-import s from "./header.module.scss";
+import S from "./header.module.scss";
 
 export default function Header() {
   return (
     <BrowserRouter>
-      <header className={s.header}>
-        <div className={s.logoContainer}>
+      <header className={S.header}>
+        <div className={S.boxLogo}>
           <img src={logoLivro} alt="Imagem de um livro aberto com capa azul" />
           <h1>Livros Vai na Web</h1>
         </div>
-        <nav className={s.navHeader}>
+        <nav className={S.navHeader}>
           <ul>
             <li>
-              <Link className={s.link} to="/">
+              <Link className={S.link} to="/">
                 Início
               </Link>
             </li>
             <li>
-              <Link className={s.link} to="/livrosdoados">
+              <Link className={S.link} to="/livrosdoados">
                 Livros Doados
               </Link>
             </li>
             <li>
-              <Link className={s.link} to="/querodoar">
+              <Link className={S.link} to="/querodoar">
                 Quero Doar
               </Link>
             </li>
           </ul>
         </nav>
-        <div className={s.barraDeBusca}>
+        <div className={S.barraDeBusca}>
           <input
             type="search"
             name=""
             id=""
             placeholder="O que você procura?"
           />
-          <button className={s.button}>
+          <button className={S.button}>
             <img src={lupa} alt="Ícone de uma lupa branca" />
           </button>
         </div>
