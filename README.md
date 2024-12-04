@@ -17,10 +17,9 @@ O site contém as seguintes seções:
 
 ## 🧑‍💻 Tecnologias Utilizadas
 
-- **React**: Para criar os componentes e gerenciar a estrutura do site.
+- **React+Vite**: Para criar os componentes e gerenciar a estrutura do site.
 - **Sass (SCSS)**: Para estilização do layout com foco em organização e responsividade.
 - **HTML5**: Para estruturação do conteúdo.
-- **Imagens e Ícones**: Para enriquecer a experiência visual do site.
 
 ## 🎨📱 Layout Responsivo
 
